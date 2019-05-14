@@ -1,0 +1,109 @@
+///////////////////////////////////////////////////////////////////////////
+// C++ code generated with wxFormBuilder (version Oct 26 2018)
+// http://www.wxformbuilder.org/
+//
+// PLEASE DO *NOT* EDIT THIS FILE!
+///////////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+#include <wx/artprov.h>
+#include <wx/xrc/xmlres.h>
+#include <wx/intl.h>
+#include <wx/string.h>
+#include <wx/bitmap.h>
+#include <wx/image.h>
+#include <wx/icon.h>
+#include <wx/menu.h>
+#include <wx/gdicmn.h>
+#include <wx/font.h>
+#include <wx/colour.h>
+#include <wx/settings.h>
+#include <wx/statusbr.h>
+#include <wx/textctrl.h>
+#include <wx/button.h>
+#include <wx/gbsizer.h>
+#include <wx/frame.h>
+#include <wx/stattext.h>
+#include <wx/sizer.h>
+#include <wx/dialog.h>
+
+///////////////////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////////////////////
+/// Class MainFrameBase
+///////////////////////////////////////////////////////////////////////////////
+class MainFrameBase : public wxFrame
+{
+	private:
+
+	protected:
+		wxMenuBar* m_menuBar;
+		wxMenu* m_menuFile;
+		wxMenu* m_menu2;
+		wxStatusBar* m_statusBar;
+		wxTextCtrl* text_hasil;
+		wxButton* m_button1;
+		wxButton* m_button2;
+		wxButton* m_button3;
+		wxButton* m_button4;
+		wxButton* m_button5;
+		wxButton* m_button6;
+		wxButton* m_button7;
+		wxButton* m_button8;
+		wxButton* m_button9;
+		wxButton* m_button10;
+		wxButton* m_button11;
+		wxButton* m_button12;
+		wxButton* m_button13;
+		wxButton* m_button14;
+		wxButton* m_button15;
+		wxButton* m_button16;
+
+		// Virtual event handlers, overide them in your derived class
+		virtual void OnCloseFrame( wxCloseEvent& event ) { event.Skip(); }
+		virtual void Even_menu_about( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol1( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol2( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol3( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol_tmb( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol4( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol5( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol6( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol_kurang( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol7( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol8( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol9( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol_kali( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombolc( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol0( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol_samadengan( wxCommandEvent& event ) { event.Skip(); }
+		virtual void Tombol_bagi( wxCommandEvent& event ) { event.Skip(); }
+
+
+	public:
+
+		MainFrameBase( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString, const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 500,300 ), long style = wxCLOSE_BOX|wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );
+
+		~MainFrameBase();
+
+};
+
+///////////////////////////////////////////////////////////////////////////////
+/// Class dialog_about
+///////////////////////////////////////////////////////////////////////////////
+class dialog_about : public wxDialog
+{
+	private:
+
+	protected:
+		wxStaticText* m_staticText1;
+
+	public:
+
+		dialog_about( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxEmptyString, const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxDefaultSize, long style = wxDEFAULT_DIALOG_STYLE );
+		~dialog_about();
+
+};
+
